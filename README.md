@@ -8,9 +8,18 @@
 
 ---
 
-## 📘 Overview
+## 📌 Overview
 
-This repository contains the code and results for the research project *Post-Earnings Announcement Drift in the 21st Century: Evidence from US Equities*.The study investigates whether the PEAD anomaly continues to persist in modern US equity markets using a sample of 50 large-cap firms from 2000 to 2023.
+The objective of this project is to reassess the post-earnings announcement drift (PEAD) anomaly in modern US equity markets using a sample of 50 large-cap firms and test whether earnings surprises still generate predictable stock returns.
+
+I examine: 
+
+- The construction of earnings surprise measures using both accounting-based and analyst-based definitions  
+- Abnormal return estimation using market-adjusted, CAPM, and Fama-French 5-factor models  
+- Portfolio sorting by earnings surprise to test for drift patterns  
+- Statistical hypothesis testing on cumulative abnormal returns (CAR)  
+- Cross-sectional regressions controlling for size, value, momentum, industry, and time effects  
+- Interpretation of whether PEAD remains a tradable inefficiency or is absorbed by priced risk factors
 
 The main finding is that the PEAD effect has significantly weakened and is largely explained by risk factors like size, value, and momentum. Once these standard controls are included, the predictive power of earnings surprises becomes statistically insignificant. This holds across both accounting-based and analyst-based (I/B/E/S) surprise measures.
 
