@@ -42,6 +42,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/shreyasxi/PEAD-Anomaly-in-US-Equities.git
 cd PEAD-Anomaly-in-US-Equities
+```
 
 ### 3. ▶️ Running the Analysis
 
@@ -69,4 +70,5 @@ Urgunde, S. (2025). *Post-Earnings Announcement Drift in the 21st Century: Evide
   month        = {June},
   note         = {Submitted in partial fulfilment of the requirements for IB93F0 Research Methodology}
 }
+```
 
