@@ -19,22 +19,19 @@ The main finding is that the PEAD effect has significantly weakened and is large
 
 ## 📁 Project Structure
 
-- `Data/` – Merged and cleaned data from CRSP, Compustat, and I/B/E/S  
-- `Jupyter Notebook/` – Final analysis notebooks  
+- `Data/` – Finalized CRSP, Compustat, and I/B/E/S datasets used in the paper  
+- `Jupyter Notebook/` – Core analysis notebook (`5582804.ipynb`)  
 - `Research Paper/` – Final PDF report  
-- `Results/` – Charts, figures, and Excel sheets from the analysis  
+- `Results/` – Visualizations, regression outputs, and Excel tables  
 
 ---
 
 ## 🔧 Replication Guide
 
-### 1. 📦 Data Requirements
+### 1. 📦 Data Access
 
-This project uses proprietary financial datasets, which are not redistributed in this repo. To replicate the analysis, you will need access to:
-
-- **CRSP**: Daily stock return data  
-- **Compustat**: Quarterly earnings data (EPS, RDQ)  
-- **I/B/E/S**: Analyst earnings forecasts  
+All datasets used in this project are included in the `Data/` folder for full transparency and replication.  
+For updated or extended data, access to CRSP, Compustat, and I/B/E/S via WRDS or equivalent platforms may be required.
 
 ---
 
@@ -45,3 +42,31 @@ Clone the repository:
 ```bash
 git clone https://github.com/shreyasxi/PEAD-Anomaly-in-US-Equities.git
 cd PEAD-Anomaly-in-US-Equities
+
+### 3. ▶️ Running the Analysis
+
+Open and run the following Jupyter notebook from the `Jupyter Notebook/` folder:
+
+- `5582804.ipynb` – Contains the complete workflow:
+  - Data preparation  
+  - Event study methodology  
+  - Portfolio sorts and hypothesis testing  
+  - Cross-sectional regressions  
+  - Final outputs are saved to the `Results/` folder
+
+## 📚 Citation
+
+If you use this repository or its findings, please cite the original work:
+
+Urgunde, S. (2025). *Post-Earnings Announcement Drift in the 21st Century: Evidence from US Equities*. Warwick Business School.
+
+```bibtex
+@mastersthesis{urgunde2025pead,
+  author       = {Shreyas Urgunde},
+  title        = {Post-Earnings Announcement Drift in the 21st Century: Evidence from US Equities},
+  school       = {Warwick Business School, The University of Warwick},
+  year         = {2025},
+  month        = {June},
+  note         = {Submitted in partial fulfilment of the requirements for IB93F0 Research Methodology}
+}
+
