@@ -1,4 +1,4 @@
-# 📊 Post-Earnings Announcement Drift in the 21st Century: Evidence from US Equities
+## Post-Earnings Announcement Drift in the 21st Century: Evidence from US Equities
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
