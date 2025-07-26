@@ -43,6 +43,7 @@ Clone the repository:
 git clone https://github.com/shreyasxi/PEAD-Anomaly-in-US-Equities.git
 cd PEAD-Anomaly-in-US-Equities
 ```
+<pre> <code> ```bash git clone https://github.com/shreyasxi/PEAD-Anomaly-in-US-Equities.git cd PEAD-Anomaly-in-US-Equities ``` </code> </pre>
 
 ### 3. ▶️ Running the Analysis
 
@@ -68,7 +69,6 @@ Urgunde, S. (2025). *Post-Earnings Announcement Drift in the 21st Century: Evide
   school       = {Warwick Business School, The University of Warwick},
   year         = {2025},
   month        = {June},
-  note         = {Submitted in partial fulfilment of the requirements for IB93F0 Research Methodology}
 }
 ```
 
