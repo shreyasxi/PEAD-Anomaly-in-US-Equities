@@ -10,8 +10,7 @@
 
 ## 📘 Overview
 
-This repository contains the code and results for the research project *Post-Earnings Announcement Drift in the 21st Century: Evidence from US Equities*.  
-The study investigates whether the PEAD anomaly continues to persist in modern US equity markets using a sample of 50 large-cap firms from 2000 to 2023.
+This repository contains the code and results for the research project *Post-Earnings Announcement Drift in the 21st Century: Evidence from US Equities*.The study investigates whether the PEAD anomaly continues to persist in modern US equity markets using a sample of 50 large-cap firms from 2000 to 2023.
 
 The main finding is that the PEAD effect has significantly weakened and is largely explained by risk factors like size, value, and momentum. Once these standard controls are included, the predictive power of earnings surprises becomes statistically insignificant. This holds across both accounting-based and analyst-based (I/B/E/S) surprise measures.
 
@@ -43,7 +42,6 @@ Clone the repository:
 git clone https://github.com/shreyasxi/PEAD-Anomaly-in-US-Equities.git
 cd PEAD-Anomaly-in-US-Equities
 ```
-<pre> <code> ```bash git clone https://github.com/shreyasxi/PEAD-Anomaly-in-US-Equities.git cd PEAD-Anomaly-in-US-Equities ``` </code> </pre>
 
 ### 3. ▶️ Running the Analysis
 
@@ -63,12 +61,13 @@ If you use this repository or its findings, please cite the original work:
 Urgunde, S. (2025). *Post-Earnings Announcement Drift in the 21st Century: Evidence from US Equities*. Warwick Business School.
 
 ```bibtex
-@mastersthesis{urgunde2025pead,
+@unpublished{urgunde2025pead,
   author       = {Shreyas Urgunde},
   title        = {Post-Earnings Announcement Drift in the 21st Century: Evidence from US Equities},
   school       = {Warwick Business School, The University of Warwick},
   year         = {2025},
   month        = {June},
+  note         = {MSc Finance Research Project, Warwick Business School}
 }
 ```
 
