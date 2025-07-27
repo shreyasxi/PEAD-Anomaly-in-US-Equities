@@ -19,7 +19,6 @@ I examine:
 - Portfolio sorting by earnings surprise to test for drift patterns  
 - Statistical hypothesis testing on cumulative abnormal returns (CAR)  
 - Cross-sectional regressions controlling for size, value, momentum, industry, and time effects  
-- Interpretation of whether PEAD remains a tradable inefficiency or is absorbed by priced risk factors
 
 The main finding is that the PEAD effect has significantly weakened and is largely explained by risk factors like size, value, and momentum. Once these standard controls are included, the predictive power of earnings surprises becomes statistically insignificant. This holds across both accounting-based and analyst-based (I/B/E/S) surprise measures.
 
